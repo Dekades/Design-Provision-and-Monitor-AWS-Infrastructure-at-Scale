@@ -1,17 +1,18 @@
 ÿGruppenhierarchie,Region,Beschreibung,Service,Vorauszahlung,Monatlich,Summe der ersten 12 Monate,Währung,Konfigurationsübersicht
-My Estimate,USA Ost (Nord-Virginia),,Amazon EC2,0,9140.74,109688.88,USD,"Betriebssystem (Linux), Anzahl (14), Preisstrategie (EC2 Instance Savings Plans 1 Jahr Keine Vorauszahlung), Speichermenge (200 GB), Instance-Typ (m5a.8xlarge)"
+"My Estimate,USA Ost (Nord-Virginia),,Amazon EC2,0,9140.74,109688.88,USD,""Betriebssystem (Linux), Anzahl (14), Preisstrategie (EC2 Instance Savings Plans 1 Jahr Keine Vorauszahlung), Speichermenge (200 GB), Instance-Typ (m5a.8xlarge)"""
 My Estimate,USA Ost (Nord-Virginia),,S3 Standard,0,30.4,364.80,USD,S3-Standardspeicher (500 GB pro Monat)
 My Estimate,USA Ost (Nord-Virginia),,Data Transfer,0,0,0.00,USD,
 My Estimate,USA Ost (Nord-Virginia),,Amazon Route 53,0,510.8,6129.60,USD,Gehostete Zonen (2)
-My Estimate,USA Ost (Nord-Virginia),,VPN Connection,0,292,3504.00,USD,"Werktage pro Monat (22), Anzahl der Site-to-Site VPN-Verbindungen (8)"
+"My Estimate,USA Ost (Nord-Virginia),,VPN Connection,0,292,3504.00,USD,""Werktage pro Monat (22), Anzahl der Site-to-Site VPN-Verbindungen (8)"""
 My Estimate,USA Ost (Nord-Virginia),,Network Address Translation (NAT) Gateway,0,965.7,11588.40,USD,Anzahl der NAT-Gateways (2)
-My Estimate,USA Ost (Nord-Virginia),,Amazon RDS for PostgreSQL,0,5078.08,60936.96,USD,"Speicher-Volume (Allzweck-SSD (gp2)), Speichermenge (2000 GB pro Monat), Knoten (2), Instance-Typ (db.m5.4xlarge), Auslastung (nur On-Demand) (100 %Utilized/Month), Bereitstellungsoption (Multi-AZ), Preismodell (OnDemand)"
+"My Estimate,USA Ost (Nord-Virginia),,Amazon RDS for PostgreSQL,0,5078.08,60936.96,USD,""Speicher-Volume (Allzweck-SSD (gp2)), Speichermenge (2000 GB pro Monat), Knoten (2), Instance-Typ (db.m5.4xlarge), Auslastung (nur On-Demand) (100 %Utilized/Month), Bereitstellungsoption (Multi-AZ), Preismodell (OnDemand)"""
 My Estimate,USA Ost (Nord-Virginia),,Application Load Balancer,0,149.65,1795.80,USD,Anzahl der Application Load Balancers (2)
 My Estimate,USA Ost (Nord-Virginia),,Amazon CloudFront,0,1651.2,19814.40,USD,Datenübertragung ins Internet (20000 GB pro Monat)
-My Estimate,USA Ost (Nord-Virginia),,AWS CloudTrail,0,527.5,6330.00,USD,"Einheiten von Verwaltungsereignisse (Millionen), Schreibverwaltungspfade (1), Leseverwaltungspfade (5), Datenereigniseinheiten (Millionen), S3-Pfade (1), Lambda-Pfade (1), Insight-Ereigniseinheiten (Millionen), Pfade mit Insight-Ereignissen (1), Schreibverwaltungsereignisse (5 pro Monat), S3-Vorgänge (10 pro Monat), Lambda-Datenereignisse (100 pro Monat), Anzahl der analysierten Schreibverwaltungsereignisse (5 pro Monat), Leseverwaltungsereignisse (5 pro Monat)"
-My Estimate,USA Ost (Nord-Virginia),,Amazon CloudWatch,0,660,7920.00,USD,"GetMetricData: Anzahl der angeforderten Metriken (10000000), GetMetricWidgetImage: Anzahl der angeforderten Metriken (10000000), Anzahl der Canary-Ausführungen (300000)"
+"My Estimate,USA Ost (Nord-Virginia),,AWS CloudTrail,0,527.5,6330.00,USD,""Einheiten von Verwaltungsereignisse (Millionen), Schreibverwaltungspfade (1), Leseverwaltungspfade (5), Datenereigniseinheiten (Millionen), S3-Pfade (1), Lambda-Pfade (1), Insight-Ereigniseinheiten (Millionen), Pfade mit Insight-Ereignissen (1), Schreibverwaltungsereignisse (5 pro Monat), S3-Vorgänge (10 pro Monat), Lambda-Datenereignisse (100 pro Monat), Anzahl der analysierten Schreibverwaltungsereignisse (5 pro Monat), Leseverwaltungsereignisse (5 pro Monat)"""
+"My Estimate,USA Ost (Nord-Virginia),,Amazon CloudWatch,0,660,7920.00,USD,""GetMetricData: Anzahl der angeforderten Metriken (10000000), GetMetricWidgetImage: Anzahl der angeforderten Metriken (10000000), Anzahl der Canary-Ausführungen (300000)"""
 
 
 
 Bestätigung
-"* Der AWS Pricing Calculator gibt nur einen Überblick über Ihre AWS-Gebühren und enthält keine anfallenden Steuern. Ihre tatsächlichen Gebühren hängen von einer Vielzahl von Faktoren ab, einschließlich Ihrer tatsächlichen Nutzung der AWS-Services."
+* Der AWS Pricing Calculator gibt nur einen Überblick über Ihre AWS-Gebühren und enthält keine anfallenden Steuern. Ihre tatsächlichen Gebühren hängen von einer Vielzahl von Faktoren ab, einschließlich Ihrer tatsächlichen Nutzung der AWS-Services.
+Changes done: added Cloudwatch for alarms and monitoring and Cloudtrail. Extended the amount of EC2`s for scaling horizontally ( or build up infrastructure in standby Region to cover the unlikely event of an Region failure ) 
